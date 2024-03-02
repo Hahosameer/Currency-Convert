@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  background-image: url(assets/coin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+.card{
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  /* text-align: center; */
+
+}
+
+.main p{
+ 
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.input {
+  width: 250px;
+  padding: 10px 20px ;
+  margin-right: 10px;
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid black;
+  background-color: transparent;
+}
+.dropDown{
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+} 
+.dropDown:hover{
+background-color: black;
+color: white;
+}
+.data{
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+
+@media (max-width: 457px) {
+  .input {
+    width: 230px;
+    padding: 10px 20px ;
+    margin-right: 10px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    /* background-color: red; */
+  }
+
+}
+@media (max-width: 400px) {
+  .input {
+    width: 200px;
+    padding: 10px 20px ;
+    margin-right: 10px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    /* background-color: red; */
+  }
+
+}
+@media (max-width: 388px) {
+  .input {
+    width: 170px;
+    padding: 10px 20px ;
+    margin-right: 10px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    /* background-color: red; */
+  }
+
+}
+@media (max-width: 355px) {
+  .input {
+    width: 140px;
+    padding: 10px 20px ;
+    margin-right: 10px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid black;
+    background-color: transparent;
+    /* background-color: red; */
+  }
+
+}
